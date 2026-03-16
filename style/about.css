@@ -1,7 +1,6 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+html {
+    overflow-y: scroll;
+    scrollbar-gutter: stable;
 }
 
 .first {
@@ -15,7 +14,7 @@ body, html {
     justify-content: center;
 }
 
-.first > a > img {
+.first>a>img {
     width: 300px;
     position: relative;
     z-index: 1;
@@ -25,7 +24,6 @@ body, html {
     font-family: "Barlow Condensed";
     text-align: center;
     font-size: 120px;
-    width: 100vw;
 }
 
 .about-content {

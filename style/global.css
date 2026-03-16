@@ -5,40 +5,30 @@
     --black: rgb(0, 0, 0);
 }
 
-body,
 html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body {
     margin: 0;
     padding: 0;
 
     font-family: "Inter", sans-serif;
-
     scroll-behavior: smooth;
-
-    overflow-x: hidden;
 }
 
-/* Chrome, Edge, Safari */
 ::-webkit-scrollbar {
-  width: 10px;
+    width: 0px;
 }
 
 ::-webkit-scrollbar-track {
-  background: transparent;
+    background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(255,255,255,0.25); /* semi-transparent */
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(255,255,255,0.4);
-}
-
-/* Firefox */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: rgba(255,255,255,0.25) transparent;
+    background: #888;
+    border-radius: 4px;
 }
 
 a {
