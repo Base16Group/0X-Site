@@ -70,4 +70,5 @@ a:active {
     justify-content: center;
     gap: 16px;
     width: 100%;
+    padding: 16px;
 }
