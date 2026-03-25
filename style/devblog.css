@@ -64,7 +64,6 @@ a:active {
 }
 
 .grid {
-    height: inherit;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
     grid-auto-rows: auto;
